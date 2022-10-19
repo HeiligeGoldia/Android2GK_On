@@ -1,8 +1,7 @@
 import { View, Text } from "react-native"
 
-export const StarNet = ({navigation, b}) => {
-    console.log(b);
+export const StarNet = () => {
     return (<View>
-            <Text>{b}</Text>
+            <Text>net</Text>
         </View>)
 }
